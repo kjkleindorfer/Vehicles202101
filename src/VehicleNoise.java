@@ -8,7 +8,8 @@ public class VehicleNoise {
 		Car honda = new Car();
 		System.out.println(honda.makeNoise());
 		
-
+         Truck ford = new Truck();
+         System.out.println(ford.makeNoise());
 	}
 
 }
