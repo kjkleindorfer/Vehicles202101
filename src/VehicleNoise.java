@@ -6,9 +6,13 @@ public class VehicleNoise {
 
 	public static void main(String[] args) {
 		Car honda = new Car();
-		System.out.println(honda.makeNoise());
+		Truck ford = new Truck("ford", "black", 3);
+		RaceCar racer = new RaceCar();
 		
-
+		System.out.println(honda.makeNoise());
+		System.out.println(ford.makeNoise());
+		System.out.println(racer.makeNoise());
+		
 	}
 
 }
