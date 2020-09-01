@@ -7,11 +7,17 @@ public class VehicleNoise {
 	public static void main(String[] args) {
 		Car honda = new Car();
 		System.out.println(honda.makeNoise());
-		
-		Jet gulfStream = new Jet("Gulf Stream V", 14, 530);
+    
+    Jet gulfStream = new Jet("Gulf Stream V", 14, 530);
 		System.out.println(gulfStream.makeNoise());
-		
+
+		Semi peterBuilt = new Semi();//Nikki McCloud
+		System.out.println(peterBuilt.makeNoise());
+
+    Truck ford = new Truck();
+    System.out.println(ford.makeNoise());
 
 	}
 
 }
+
