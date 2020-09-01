@@ -6,13 +6,21 @@ public class VehicleNoise {
 
 	public static void main(String[] args) {
 		Car honda = new Car();
-		Truck ford = new Truck("ford", "black", 3);
-		RaceCar racer = new RaceCar();
-		
 		System.out.println(honda.makeNoise());
-		System.out.println(ford.makeNoise());
-		System.out.println(racer.makeNoise());
-		
+    
+    Jet gulfStream = new Jet("Gulf Stream V", 14, 530);
+		System.out.println(gulfStream.makeNoise());
+
+		Semi peterBuilt = new Semi();//Nikki McCloud
+		System.out.println(peterBuilt.makeNoise());
+
+    Truck ford = new Truck();
+    System.out.println(ford.makeNoise());
+
+    RaceCar racer = new RaceCar();
+    System.out.println(racer.makeNoise());
 	}
 
 }
+
+

@@ -1,19 +1,22 @@
 package model;
 
 public class Truck {
-	//chase van blair
+	
+	//added by Md Ahmed
+	
 	private String name;
 	private String color;
-	private int age;
-
+	private int year;
+	
 	public Truck() {
 		super();
 	}
 
-	public Truck(String name, String color, int age){
+	public Truck(String name, String color, int year) {
+		super();
 		this.name = name;
 		this.color = color;
-		this.age = age;
+		this.year = year;
 	}
 
 	public String getName() {
@@ -32,15 +35,16 @@ public class Truck {
 		this.color = color;
 	}
 
-	public int getAge() {
-		return age;
+	public int getYear() {
+		return year;
 	}
 
-	public void setAge(int age) {
-		this.age = age;
+	public void setYear(int year) {
+		this.year = year;
 	}
 
 	public String makeNoise() {
-		return "BRRRRRRRR";
+		return "Troook Troook";
 	}
 }
+
