@@ -17,7 +17,10 @@ public class VehicleNoise {
     Truck ford = new Truck();
     System.out.println(ford.makeNoise());
 
+    RaceCar racer = new RaceCar();
+    System.out.println(racer.makeNoise());
 	}
 
 }
+
 
