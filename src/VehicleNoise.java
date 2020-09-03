@@ -10,6 +10,13 @@ public class VehicleNoise {
 		
 		Motorcycle harley = new Motorcycle();
 		System.out.println(harley.makeNoise());
+		
+		Motorcycle bmw = new Motorcycle("BMW", "Blue", 2003);
+		System.out.println(bmw.getColor());
+		
+		Motorcycle ducati = new Motorcycle("Ducati", "Black", 2015);
+		System.out.println(ducati.getName());
+				
 	}
 
 }
