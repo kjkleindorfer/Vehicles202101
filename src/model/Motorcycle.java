@@ -1,4 +1,5 @@
 package model;
+ // added by Paul
 
 public class Motorcycle {
 	private String name;
