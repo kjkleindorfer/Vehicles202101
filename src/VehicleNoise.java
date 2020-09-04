@@ -28,9 +28,10 @@ public class VehicleNoise {
 
     Vehicle mazda = new Vehicle();
 	  System.out.println(mazda.MakeNoise());
+    
+   Motorcycle2 harley2 = new Motorcycle2();
+		System.out.println(harley2.makeNoise());
 
 	}
 
 }
-
-
