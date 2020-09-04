@@ -1,17 +1,17 @@
 package model;
  // added by Paul
 
-public class Motorcycle {
+public class Motorcycle2 {
 	private String name;
 	private String color;
 	private int age;
 
-	public Motorcycle() {
+	public Motorcycle2() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Motorcycle(String name, String color, int year) {
+	public Motorcycle2(String name, String color, int year) {
 		super();
 		this.name = name;
 		this.color = color;
