@@ -22,6 +22,13 @@ public class VehicleNoise {
     
     Boat boat = new Boat();
     System.out.println(boat.makeNoise());
+
+    Motorcycle harley = new Motorcycle();
+    System.out.println(harley.makeNoise());
+
+    Vehicle mazda = new Vehicle();
+	  System.out.println(mazda.MakeNoise());
+
 	}
 
 }
