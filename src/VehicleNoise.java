@@ -20,6 +20,9 @@ public class VehicleNoise {
     RaceCar racer = new RaceCar();
     System.out.println(racer.makeNoise());
     
+    AudiS7 s7 = new AudiS7();
+    System.out.println(s7.makeNoise());
+	
     Boat boat = new Boat();
     System.out.println(boat.makeNoise());
 
