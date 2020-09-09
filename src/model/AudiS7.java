@@ -45,6 +45,6 @@ public class AudiS7 {
 
 	public String makeNoise() {
 		
-		return "Vrooooom!";
+		return "Vroooooooom!";
 	}
 }
