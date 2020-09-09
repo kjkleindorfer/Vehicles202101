@@ -22,8 +22,19 @@ public class VehicleNoise {
     
     AudiS7 s7 = new AudiS7();
     System.out.println(s7.makeNoise());
+	
+    Boat boat = new Boat();
+    System.out.println(boat.makeNoise());
+
+    Motorcycle harley = new Motorcycle();
+    System.out.println(harley.makeNoise());
+
+    Vehicle mazda = new Vehicle();
+	  System.out.println(mazda.MakeNoise());
+    
+   Motorcycle2 harley2 = new Motorcycle2();
+		System.out.println(harley2.makeNoise());
+
 	}
 
 }
-
-
